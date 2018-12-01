@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about",
+    "pages/authorization/auth",
+    "pages/client/client",
+    "pages/product/product",
+    "pages/service/service",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list":[
+      {
+        "pagePath": "pages/about/about",
+        "text": "關於"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "產品"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首頁"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "服務"
+      },
+      {
+        "pagePath": "pages/client/client",
+        "text": "商家"
+      }
+    ]
+  }
+}
