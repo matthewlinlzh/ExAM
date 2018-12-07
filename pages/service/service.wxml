@@ -1,0 +1,41 @@
+<view>
+  <!-- intro and wording part -->
+  <view class='service'>
+  <view class='title'>
+    <text>PROFESSIONAL SERVICES
+    我们的服务
+    </text>
+  </view>
+  <text class="text">
+  You can count on Excelsior Auto to not only meet but exceed all your needs and requests. Learn more about the services we provide below and let us know if you’d like to learn more about a specific offering.
+​我们专业的服务是您可以信赖的根本，从每个方面保障您的利益与安全，提供给您最实惠最舒心的定制改装服务。
+  </text>
+  </view>
+
+  <!-- picture and function -->
+  <!-- interior pic and text -->
+  <view class='inter'>
+    <view class='interior'>
+      <image class='pic_inter' src='/pic_resource/interior.jpg'></image>
+    </view>
+    <view class='interior_text'>
+      <view class='title'>
+      <text>INTERIOR IMPROVEMENT</text>
+      </view>
+      <text>Excelsior Auto is committed to getting the job done, especially when it comes to this service. You can count on us to be professional, timely, efficient and make sure you’re satisfied every step of the way.</text>
+    </view>
+  </view>
+
+  <view class='auto_mod'>
+    <view class='auto_modification'>
+      <image class='pic_modi' src='/pic_resource/modification.png'></image>
+    </view>
+    <view class='mod_text'>
+      <view class='title'>
+      <text>AUTO MODIFICATION</text>
+      </view>
+      <text>Since its founding, Excelsior Auto has been one of the most trusted names in the industry. Hire us for this service and learn how we cater to the needs of each client, ensuring the results you need and deserve.</text>
+    </view>
+  </view>
+
+</view>

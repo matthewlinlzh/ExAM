@@ -1,0 +1,10 @@
+<view>
+  <view class='interior' bindtap='GoTOinterior'>
+      <image src='/pic_resource/interior.jpg'></image>
+      <text class='title'>Interior Design</text>
+  </view>
+  <view class='modification' bindtap='GoTomodification'>
+    <image src='/pic_resource/modification.png'></image>
+    <text class='title'>Auto Modification</text>
+  </view>
+</view>

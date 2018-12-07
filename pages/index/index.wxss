@@ -1,1 +1,19 @@
-/*  */
+image{
+  width: 100%;
+}
+
+.interior{
+  margin: 20px 0;
+
+}
+
+.modification{
+  margin: 20px 0;
+}
+
+.title{
+  padding: 0 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

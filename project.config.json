@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx74a3d1732eaa7a49",
-	"projectname": "ExAM",
+	"projectname": "Exam",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -54,7 +54,13 @@
 				{
 					"id": -1,
 					"name": "關於",
-					"pathName": "pages/about/about"
+					"pathName": "pages/about/about",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "服務",
+					"pathName": "pages/service/service"
 				}
 			]
 		}
