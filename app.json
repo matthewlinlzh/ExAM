@@ -4,6 +4,7 @@
     "pages/authorization/auth",
     "pages/client/client",
     "pages/product/product",
+    "pages/product/product_section",
     "pages/service/service",
     "pages/interior/interior",
     "pages/modification/modification",
@@ -22,20 +23,21 @@
     "list":[
       {
         "pagePath": "pages/index/index",
-        "text": "首頁"
+        "text": "首页"
       },
       {
         "pagePath": "pages/product/product",
-        "text": "產品"
+        "text": "产品"
       },
       {
         "pagePath": "pages/service/service",
-        "text": "服務"
+        "text": "服务"
       },
       {
         "pagePath": "pages/client/client",
         "text": "商家"
       }
     ]
-  }
+  },
+  "backgroundColor": "#000000"
 }

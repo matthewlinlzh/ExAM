@@ -1,3 +1,5 @@
 {
-  
+  "navigationBarTitleText": "Excelsior Auto Mod",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#000000"
 }

@@ -1,0 +1,9 @@
+<view class='product'>
+  <!-- 设定好每一个产品图片的大小，产品名称，价钱，商品页面跳转 -->
+  <view class='product_section' wx:for="{{product}}" wx:key="index" bindtap='GoTOProduct' id='{{item.id}}'>
+      <view class='pic_view'>
+        <image class='inter_pic' src='{{item.image}}'></image>
+      </view>
+      <text class='p-name'>{{item.product_name}}</text>
+  </view> 
+</view>

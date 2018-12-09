@@ -1,1 +1,5 @@
-{}
+{
+  "backgroundColor": "#000000",
+  "navigationBarTitleText": "产品",
+  "navigationBarTextStyle": "white"
+}
