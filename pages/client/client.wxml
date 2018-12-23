@@ -1,0 +1,7 @@
+<view class='client'>
+  <view class='client_view'>
+    <view class='view_top'></view>
+    <view class='view_show'></view>
+    <view class='view_bottom'></view>
+  </view>
+</view>
