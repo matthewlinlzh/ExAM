@@ -1,5 +1,5 @@
 <view class='client'>
-  <view class='client_view' wx:for="{{vender}}" wx:key="index" bindtap='GoTOProduct' id='{{item.id}}'>
+  <view class='client_view' wx:for="{{vender}}" wx:key="index" bindtap='GoTOVender' id='{{item.id}}'>
     <view class='view_top'>
       <view class='vender_info_pic'>
         <image class='vender_pic' src='{{item.vender_pic}}'></image>

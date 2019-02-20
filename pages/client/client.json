@@ -1,3 +1,5 @@
 {
-  "backgroundColor": "#000000"
+  "backgroundColor": "#000000",
+  "navigationBarTitleText": "商家",
+  "navigationBarTextStyle": "white"
 }

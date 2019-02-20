@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/authorization/auth",
     "pages/client/client",
+    "pages/client/clientpage",
     "pages/product/product",
     "pages/product/product_section",
     "pages/service/service",
@@ -46,6 +47,5 @@
         "selectedIconPath": "pages/image/vender1.png"
       }
     ]
-  },
-  "backgroundColor": "#000000"
+  }
 }

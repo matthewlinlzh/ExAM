@@ -18,5 +18,8 @@ Page({
   },
    onLoad(){
      
-   }
+   },
+  GoTOVender:function(e){
+    console.log(e)
+  }
 })
