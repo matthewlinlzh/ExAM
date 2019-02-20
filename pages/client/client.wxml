@@ -1,7 +1,23 @@
 <view class='client'>
-  <view class='client_view'>
-    <view class='view_top'></view>
-    <view class='view_show'></view>
-    <view class='view_bottom'></view>
-  </view>
+  <view class='client_view' wx:for="{{vender}}" wx:key="index" bindtap='GoTOProduct' id='{{item.id}}'>
+    <view class='view_top'>
+      <view class='vender_info_pic'>
+        <image class='vender_pic' src='{{item.vender_pic}}'></image>
+      </view>
+      <view class='vender_name'>
+        <text>{{item.vender_name}}</text>
+      </view>
+    </view>
+   <view class='view_show'>
+      <swiper indicator-dots='{{indicator_dots}}'autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{item.vender_product}}" wx:for-item="items">
+          <swiper-item>
+            <image class="swiper_image" src='{{items}}'></image>
+          </swiper-item>
+        </block>
+      </swiper>
+   </view>
+    <!--  <view class='view_bottom'>
+    </view>-->
+  </view> 
 </view>

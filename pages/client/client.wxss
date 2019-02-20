@@ -13,6 +13,7 @@
 .view_top{
   width: 100%;
   height: 50px;
+  display: flex;
   border-bottom: 1px solid gray;
 }
 
@@ -22,7 +23,37 @@
   border-bottom: 1px solid gray;
 }
 
+.view_show swiper{
+  height: 100%;
+  width: 100%;
+}
+
+swiper image{
+  height: 100%;
+  width: 100%;
+}
+
 .view_bottom{
   width: 100%;
   height: 100px;
 }
+
+.vender_name{
+  margin: 10px 0 10px 0;
+  color: black;
+}
+
+.vender_pic{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.vender_info_pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+  margin-top: 5px;
+}
+

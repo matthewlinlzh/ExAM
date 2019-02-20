@@ -13,29 +13,37 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000000",
-    "navigationBarTextStyle":"#ffffff"
+    "navigationBarTextStyle":"black"
   },
   "tabBar":{
     "color": "#ffffff",
     "selectedColor": "#11cd6e",
-    "backgroundColor":"#000000",
-    "borderStyle": "#ffffff",
+    "borderStyle": "black",
+    "backgroundColor": "black",
     "list":[
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "pages/image/home.png",
+        "selectedIconPath": "pages/image/home1.png"
       },
       {
         "pagePath": "pages/product/product",
-        "text": "产品"
+        "text": "产品",
+        "iconPath": "pages/image/product.png",
+        "selectedIconPath": "pages/image/product1.png"
       },
       {
         "pagePath": "pages/service/service",
-        "text": "服务"
+        "text": "服务",
+        "iconPath": "pages/image/services.png",
+        "selectedIconPath": "pages/image/services1.png"
       },
       {
         "pagePath": "pages/client/client",
-        "text": "商家"
+        "text": "商家",
+        "iconPath": "pages/image/vender.png",
+        "selectedIconPath": "pages/image/vender1.png"
       }
     ]
   },
