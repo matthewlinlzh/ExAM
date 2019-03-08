@@ -17,9 +17,30 @@ Page({
     nextMargin: 0
   },
    onLoad(){
+     wx.request({
+       url: 'https://exautotech.applinzi.com/ExAM/vender.php',
+       data: {
+         type: "get"
+       },
+       success(res){
+         console.log(res)
+       },
+       fail(e){
+         console.log("fail to connect")
+       }
+     })
      
    },
   GoTOVender:function(e){
-    console.log(e)
+    var vender_id = e.currentTarget.id
+    var vender = this.data.vender
+    for (var i = 0; i < vender.length; i++) {
+      if (vender_id == vender[i].id) {
+        var vender_info = wx.setStorageSync("vender_info", vender[i])
+      }
+    }
+    wx.navigateTo({
+      url: '../client/clientpage'
+    })
   }
 })
