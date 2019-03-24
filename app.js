@@ -10,6 +10,16 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+
+        wx.request({
+          url: 'https://exautotech.applinzi.com/ExAM/openid.php',
+          data:{
+            code: res.code
+          },
+          success:function(resp){
+            console.log(resp)
+          }
+        })
       }
     })
     // 获取用户信息
